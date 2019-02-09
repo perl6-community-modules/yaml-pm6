@@ -3,7 +3,7 @@
     "name"        : "YAML",
     "license"     : "Artistic-2.0",
     "version"     : "0.1",
-    "author"      : "Ingy döt Net <ingy@cpan.org>",
+    "authors"      : [ "Ingy döt Net <ingy@cpan.org>" ],
     "description" : "YAML Ain’t Markup Language",
     "depends"     : [ "TestML" ],
     "provides"    : {
