@@ -1,18 +1,18 @@
-== YAML
+## YAML
 
 This is the pure Perl 6 implementation of YAML.
 
     use YAML;
     say dump($any_perl_object);
 
-== BENEFITS
+## BENEFITS
 
 At this point in Perl 6, using YAML is the only way to dump an object
 graph to text. The `.perl` method will stop at object nodes, rather than
 dumping them further. The `.perl` method also cannot dump cyclic data
 graphs. YAML.pm handles these things fine.
 
-== CAVEATS
+## CAVEATS
 
 At this early point in time, only the dump() operation is supported. You
 cannot use this module to load YAML streams into memory objects.
@@ -22,7 +22,7 @@ _visualizing_ (dumping) complex data. The output quite possibly might
 not be perfectly valid YAML, so don't use this module for data
 communication just yet.
 
-== INSTALLATION
+## INSTALLATION
 
 Use `zef`. https://github.com/ugexe/zef
 
@@ -35,7 +35,7 @@ Use `zef`. https://github.com/ugexe/zef
     > zef test .
     > zef install .
 
-== COPYRIGHT
+## COPYRIGHT
 
 Copyright 2010. Ingy döt Net.
 
