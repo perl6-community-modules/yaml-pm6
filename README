@@ -24,12 +24,16 @@ communication just yet.
 
 == INSTALLATION
 
-Use `ufo`. http://github.com/masak/ufo
+Use `zef`. https://github.com/ugexe/zef
 
+    > # install latest CPAN version
+    > zef install YAML
+
+    > # -OR- install from git repo
     > cd yaml-pm6
-    > ufo
-    > make test    # requires testml - http://github.com/ingydotnet/testml-pm6
-    > make install
+    > zef --deps-only install .
+    > zef test .
+    > zef install .
 
 == COPYRIGHT
 
