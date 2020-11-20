@@ -10,5 +10,5 @@
         "YAML"         : "lib/YAML.pm",
         "YAML::Dumper" : "lib/YAML/Dumper.pm"
     },
-    "source-url"  : "git://github.com/perl6-community-modules/yaml-pm6.git"
+    "source-url"  : "git://github.com/raku-community-modules/YAML.git"
 }
