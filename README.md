@@ -1,15 +1,15 @@
 ## YAML
 
-This is the pure Perl 6 implementation of YAML.
+This is the pure Raku implementation of YAML.
 
     use YAML;
     say dump($any_perl_object);
 
 ## BENEFITS
 
-At this point in Perl 6, using YAML is the only way to dump an object
-graph to text. The `.perl` method will stop at object nodes, rather than
-dumping them further. The `.perl` method also cannot dump cyclic data
+At this point in Raku, using YAML is the only way to dump an object
+graph to text. The `.raku` method will stop at object nodes, rather than
+dumping them further. The `.raku` method also cannot dump cyclic data
 graphs. YAML.pm handles these things fine.
 
 ## CAVEATS
@@ -30,7 +30,7 @@ Use `zef`. https://github.com/ugexe/zef
     > zef install YAML
 
     > # -OR- install from git repo
-    > cd yaml-pm6
+    > cd YAML
     > zef --deps-only install .
     > zef test .
     > zef install .
